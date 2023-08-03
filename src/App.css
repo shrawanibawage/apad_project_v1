@@ -1,0 +1,220 @@
+body {
+  margin: 100;
+  padding: 100;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: right-center;
+  display: flex;
+  min-height: 20vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(79deg, #CC6D29, #CC8552 48%, #CCB4A3);
+}
+
+.App-form {
+  text-align: left;
+  display: flex;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+  color: #CC6D29;
+  background-image: linear-gradient(79deg, #CCB4A3);
+}
+
+
+
+.sidebar {
+  width: 300px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.sidebar.show {
+  transform: translateX(0);
+}
+
+.content {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.burger-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+} 
+
+h3 {
+  align-items:  center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.h1-center{
+  padding: 2%;
+  align-items:  center;
+  display: flex;
+  flex-direction: column;
+  color: #CC6D29
+}
+
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border: 1px solid #CC6D29;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 1px solid #CC6D29;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: #CC6D29;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #efeae6;
+}
+
+.link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(79deg, #CC6D29, #CC8552 48%, #CCB4A3);
+}
+.content-container {
+  text-align: center;
+  padding: 100px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: azure;
+}
+.navigation {
+  margin-bottom: 20px;
+}
+.button-project {
+  margin: 0 5px;
+  background-color: #CC6D29; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+.image-gallery-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+
+.image-item {
+  text-align: center;
+}
+
+.image-item img {
+  width: 200px; /* Adjust the image width as needed */
+  height: 200px; /* Adjust the image height as needed */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.image-item p {
+  font-size: 14px; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+/* HomePage.css */
+.home-page {
+  position: relative;
+  max-height: 100vh; /* Ensure the content takes the full height of the viewport */
+  /* scroll-behavior: smooth; */
+  background-color: rgba(0, 0, 0, 0.5); /* Translucent background color */
+  overflow :scroll; /* Hide any overflowing content */
+  overflow-x:hidden;
+}
+
+.background-image {
+  /* Set background image dimensions */
+  /* Make sure it covers the full background */
+  background-size: cover; 
+  display: flex;
+	justify-content: left;
+	align-items: Right;
+	height: 120vh;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+
+  /* Styling for the headings */
+  text-align: left;
+  color: #0e0d0d; /* Heading text color */
+  font-family: Arial, sans-serif; /* Choose your desired font-family */
+}
+
+.main-heading {
+  font-size: 36px; /* Main heading font size */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sub-heading {
+  font-size: 18px; /* Sub heading font size */
+}

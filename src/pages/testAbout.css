@@ -1,0 +1,68 @@
+/*body {
+    background-color: #bf5700;
+    padding: 20px;
+    margin: 0;
+    
+  }*/
+
+  
+  
+  h1, h2, h3, p, ul, li {
+    font-family: sans-serif;
+  }
+  ul.header li {
+    
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.header {
+    color: #FFF;
+    background-color: #bf5700;
+    padding: 0;
+    
+  }
+  ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+  }
+  .content {
+    background-color: #FFF;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  
+  .content h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .content p {
+    padding: 0;
+    margin: 0;
+  
+  }
+  
+  .content p2 {
+    padding: 0;
+    margin: 0;
+    font-style: italic ;
+    
+  }
+  .content li {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  
+  img {
+    width: 36px; /* 1 inch = 72 pixels, so 3 inches = 3 * 72 pixels */
+    height: 40px; /* Maintain the aspect ratio, adjust height automatically */
+  }
